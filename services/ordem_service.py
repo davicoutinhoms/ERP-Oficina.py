@@ -1,7 +1,18 @@
+from algoritmos.busca import busca_binaria_ordem
+
+from algoritmos.ordenacao import (
+    ordenar_por_codigo,
+    ordenar_por_prioridade,
+    ordenar_por_valor
+)
 from models.ordem_servico import OrdemServico
+
 from dados.ordens import ordens
+
 from algoritmos.busca import buscar_ordem_por_codigo
+
 from algoritmos.ordenacao import ordenar_por_prioridade, ordenar_por_valor
+
 from estruturas.fila_prioridade import FilaPrioridade
 fila_ordens = FilaPrioridade()
 
