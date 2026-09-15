@@ -12,7 +12,7 @@ class OrdemServico:
         self.servicos = []
         self.valor_total = 0
 
-    def alterar_status(self, novo_satus):
+    def alterar_status(self, novo_status):
         self.status = novo_status
 
     def alterar_prioridade(self, nova_prioridade):

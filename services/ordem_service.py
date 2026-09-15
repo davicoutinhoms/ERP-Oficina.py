@@ -158,7 +158,8 @@ def registrar_servico():
         return
 
     descricao = input("Descrição do serviço: ")
-    valor = float(input("Valor do serviço: R$ "))
+    valor_texto = input("Valor do serviço: R$ ")
+    valor = float(valor_texto.replace(",", "."))
 
     ordens[indice].adicionar_servico(
         descricao,
