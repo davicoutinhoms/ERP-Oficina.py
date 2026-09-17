@@ -251,4 +251,5 @@ def desfazer_ultima_movimentacao():
           f"{ultimo_movimento['quantidade']} unidade(s) em {ultimo_movimento['peca']}")
 
 
-menu()
+if __name__ == "__main__":
+    menu()
